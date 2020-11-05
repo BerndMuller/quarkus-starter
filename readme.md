@@ -85,7 +85,12 @@ To use an extension, i.e. update the POM with some dependency do
 mvn quarkus:add-extension -Dextensions=<extension>
 ```
 
-where ``<extension>`` is one of the extensions shown by ``list-extensions``.
+where ``<extension>`` is one of the extensions shown by ``list-extensions``. For example
+
+```
+
+mvn quarkus:add-extension -Dextensions=quarkus-smallrye-metrics
+```
 
 
 Happy hacking !
